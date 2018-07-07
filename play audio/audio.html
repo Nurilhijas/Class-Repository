@@ -1,0 +1,23 @@
+<html>
+<body>
+<audio id="AudioPlayer">
+<source src="Believer.mp3" type="audio/MP3">
+</audio>
+<button onclick="playAudio()" type="button">Play Audio</button>
+<button onclick="pauseAudio()" type="button">Pause Audio</button>
+<script>
+var m = document.getElementById("AudioPlayer");
+
+function playAudio() { 
+
+    m.play(); 
+} 
+
+function pauseAudio() { 
+
+    m.pause(); 
+
+}
+</script>
+</body>
+</html>
